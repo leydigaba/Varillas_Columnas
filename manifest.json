@@ -1,7 +1,9 @@
+
 {
   "id": "varillas-columnas",
   "name": "Varillas para columnas",
   "short_name": "Varillas",
+  "description": "Aplicación para calcular la cantidad de varillas y estribos necesarios para columnas de construcción, así como consultar listas de compra.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
@@ -9,9 +11,26 @@
     "window-controls-overlay",
     "standalone"
   ],
+  "orientation": "any",
   "background_color": "#f1dafe",
   "theme_color": "#d8afe7",
   "lang": "es",
+  "screenshots": [
+    {
+      "src": "screenshots/inicio.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Pantalla principal de Varillas para columnas"
+    },
+    {
+      "src": "screenshots/calculo.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Pantalla de cálculo de varillas y estribos"
+    }
+  ],
   "icons": [
     {
       "src": "icon.svg",
