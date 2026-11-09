@@ -1,0 +1,95 @@
+{
+  "type": "AdaptiveCard",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Varillas para columnas",
+      "weight": "Bolder",
+      "size": "Small",
+      "isSubtle": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "${cuantia}",
+      "size": "ExtraLarge",
+      "weight": "Bolder",
+      "color": "Accent",
+      "spacing": "Small"
+    },
+    {
+      "type": "TextBlock",
+      "text": "${estado}",
+      "color": "${color}",
+      "weight": "Bolder",
+      "wrap": true
+    },
+    {
+      "type": "Container",
+      "spacing": "Medium",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "$data": "${filas}",
+          "spacing": "Small",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "verticalContentAlignment": "Center",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "${nombre}",
+                  "isSubtle": true,
+                  "wrap": true
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "auto",
+              "verticalContentAlignment": "Center",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "${valor}",
+                  "weight": "Bolder",
+                  "wrap": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Execute",
+      "title": "Varillas −",
+      "verb": "n-"
+    },
+    {
+      "type": "Action.Execute",
+      "title": "Varillas +",
+      "verb": "n+"
+    },
+    {
+      "type": "Action.Execute",
+      "title": "Columnas −",
+      "verb": "c-"
+    },
+    {
+      "type": "Action.Execute",
+      "title": "Columnas +",
+      "verb": "c+"
+    },
+    {
+      "type": "Action.Execute",
+      "title": "Cambiar varilla",
+      "verb": "bar"
+    }
+  ]
+}

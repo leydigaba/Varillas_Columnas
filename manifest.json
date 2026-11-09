@@ -1,0 +1,61 @@
+{
+  "id": "varillas-columnas",
+  "name": "Varillas para columnas",
+  "short_name": "Varillas",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone"
+  ],
+  "background_color": "#f1dafe",
+  "theme_color": "#d8afe7",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "widgets": [
+    {
+      "name": "Varillas para columnas",
+      "short_name": "Varillas",
+      "description": "Cuantía y lista de compra de varillas y estribos desde el panel de widgets",
+      "tag": "varillas",
+      "template": "varillas-widget",
+      "ms_ac_template": "widgets/varillas-template.json",
+      "data": "widgets/varillas-data.json",
+      "type": "application/json",
+      "auth": false,
+      "screenshots": [
+        {
+          "src": "widgets/varillas-screenshot.png",
+          "sizes": "600x400",
+          "label": "Widget de varillas para columnas"
+        }
+      ],
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

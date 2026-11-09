@@ -1,0 +1,27 @@
+{
+  "cuantia": "1,13 %",
+  "estado": "✓ Cumple 1 %–8 %",
+  "color": "Good",
+  "filas": [
+    {
+      "nombre": "Columna",
+      "valor": "30 × 30 cm · 4 m"
+    },
+    {
+      "nombre": "Varillas",
+      "valor": "8 × #4 por columna"
+    },
+    {
+      "nombre": "Columnas",
+      "valor": "1"
+    },
+    {
+      "nombre": "Comprar varilla #4",
+      "valor": "3 pzas"
+    },
+    {
+      "nombre": "Comprar estribos #3",
+      "valor": "3 pzas"
+    }
+  ]
+}
