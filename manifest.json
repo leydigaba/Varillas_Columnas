@@ -1,8 +1,8 @@
 
 {
+  "name": "Calculadora de Barrillas",
+  "short_name": "Calculadora",
   "id": "varillas-columnas",
-  "name": "Varillas para columnas",
-  "short_name": "Varillas",
   "description": "Aplicación para calcular la cantidad de varillas y estribos necesarios para columnas de construcción, así como consultar listas de compra.",
   "start_url": "./index.html",
   "scope": "./",
@@ -10,6 +10,7 @@
   "display_override": [
     "window-controls-overlay",
     "standalone"
+
   ],
   "orientation": "any",
   "background_color": "#f1dafe",
